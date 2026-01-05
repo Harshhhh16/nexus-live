@@ -9,7 +9,7 @@ import uuid
 
 # Load Secrets
 # (Replace with your actual key if not using .env)
-api_key = "AIzaSyBUM7or5qz9DHa6I_ZezaAU0i26dIT9EDs"
+api_key = "AIzaSyAqBO1T6qtzg-oHi65hdrX8HyZj7Oy6FOY"
 genai.configure(api_key=api_key)
 
 class DatabaseManager:
@@ -97,4 +97,5 @@ class DatabaseManager:
             response = model.generate_content(prompt)
             return response.text, retrieved_images, retrieved_tables
         except Exception as e:
+
             return f"Error: {e}", [], []
