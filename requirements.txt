@@ -8,3 +8,4 @@ pdf2image
 pytesseract
 tiktoken
 pdfminer.six
+opencv-python-headless
