@@ -1,0 +1,9 @@
+streamlit
+google-generativeai
+chromadb
+pymongo
+python-dotenv
+unstructured
+pdf2image
+pytesseract
+tiktoken
